@@ -16,7 +16,7 @@ class Ship():
         # Starting each new ship at the bottom in the middle.
         self.rect.centerx = self.screen_rect.centerx
         self.rect.bottom = self.screen_rect.bottom
-        
+
         self.center = float(self.rect.centerx)
 
         # Movement flags

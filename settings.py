@@ -1,4 +1,4 @@
-class Settings():       
+class Settings():
     def __init__(self):
         # Initializing game settings.
         self.screen_width = 640
