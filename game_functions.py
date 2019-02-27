@@ -31,7 +31,8 @@ def check_keyup_events(event, ship):
 
 
 def update_screen(ai_settings, screen, ship):
-    screen.fill(ai_settings.bg_color)
+    # screen.fill(ai_settings.bg_color)                              # Color
+    screen.blit(pygame.image.load(ai_settings.bg_location), (0, 0))  # Image
     ship.bltime()
 
     # Making the most recently drawn screen visible.
