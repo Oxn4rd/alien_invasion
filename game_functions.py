@@ -20,7 +20,7 @@ def check_keydown_events(event, ship):
         ship.rect.centerx += 1
     elif event.key == pygame.K_LEFT:
         ship.moving_left = True
-        ship.rect.centerx -= 1 
+        ship.rect.centerx -= 1
 
 
 def check_keyup_events(event, ship):
