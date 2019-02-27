@@ -4,8 +4,8 @@ import os
 class Settings():
     def __init__(self):
         # Initializing game settings.
-        self.screen_width = 640
-        self.screen_height = 720
+        self.screen_width = 500
+        self.screen_height = 900
 
         # Background settings
         self.bg_color = (230, 230, 230)
@@ -24,6 +24,7 @@ class Settings():
 
         # Alien sprites.
         self.alien_general = os.path.join("sprites", "alien_general.bmp")
+        self.test = os.path.join("sprites", "test.gif")
         # self.alien_black = os.path.join("sprites", "alien_black.bmp")
         # self.alien_cyan = os.path.join("sprites", "alien_cyan.bmp")
         # self.alien_blue = os.path.join("sprites", "alien_blue.bmp")

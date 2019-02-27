@@ -13,7 +13,7 @@ class Alien(Sprite):
 
         self.image = pygame.transform.scale(
             pygame.image.load(os.path.join("sprites",
-                                           "alien_general.bmp")), [70, 90])
+                                           "alien_general.bmp")), [30, 50])
         self.rect = self.image.get_rect()
 
         self.rect.x = self.rect.width
