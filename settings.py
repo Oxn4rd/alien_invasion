@@ -23,11 +23,11 @@ class Settings():
         self.bullets_allowed = 3
 
         # Alien sprites.
-        self.alien_black = os.path.join("sprites", "alien_black.bmp")
         self.alien_general = os.path.join("sprites", "alien_general.bmp")
-        self.alien_cyan = os.path.join("sprites", "alien_cyan.bmp")
-        self.alien_blue = os.path.join("sprites", "alien_blue.bmp")
-        self.alien_purple = os.path.join("sprites", "alien_purple.bmp")
-        self.alien_yellow = os.path.join("sprites", "alien_yellow.bmp")
-        self.alien_red = os.path.join("sprites", "alien_red.bmp")
-        self.alien_green = os.path.join("sprites", "alien_green.bmp")
+        # self.alien_black = os.path.join("sprites", "alien_black.bmp")
+        # self.alien_cyan = os.path.join("sprites", "alien_cyan.bmp")
+        # self.alien_blue = os.path.join("sprites", "alien_blue.bmp")
+        # self.alien_purple = os.path.join("sprites", "alien_purple.bmp")
+        # self.alien_yellow = os.path.join("sprites", "alien_yellow.bmp")
+        # self.alien_red = os.path.join("sprites", "alien_red.bmp")
+        # self.alien_green = os.path.join("sprites", "alien_green.bmp")
