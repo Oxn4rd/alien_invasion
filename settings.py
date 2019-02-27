@@ -32,3 +32,9 @@ class Settings():
         # self.alien_yellow = os.path.join("sprites", "alien_yellow.bmp")
         # self.alien_red = os.path.join("sprites", "alien_red.bmp")
         # self.alien_green = os.path.join("sprites", "alien_green.bmp")
+
+        # Alien settings.
+        self.alien_speed_factor = 1
+        self.fleet_drop_speed = 10
+        # 1 right, -1 left
+        self.fleet_direction = 1
